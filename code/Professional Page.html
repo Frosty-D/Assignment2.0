@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charst="UTF-8">
+    <meta name="viewport" content="width=device-widht, initial-scale=1.0">
+    <title>Professional Page</title>
+
+    <style>
+
+
+        .navbar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(19, 15, 15, 0.5);
+    position: sticky;
+    top: 0;
+}
+
+.navbar ul{
+    display: flex;
+    list-style: none;
+    margin: 20px 0px;
+}
+.navbar ul li{
+    font-family: century;
+    font-size: 1.1rem;
+    font-weight: bold;
+}
+.navbar ul li a{
+    text-decoration: none;
+    color: white;
+    padding: 8px 25px;
+    transition: all .5s ease;
+}
+.navbar ul li a:hover{
+    background-color: white;
+    color: black;
+    box-shadow: 0 0 10px white;
+}
+        
+body{ 
+        background-image: linear-gradient(rgb(0, 0, 0),rgb(255, 72, 0));
+    }
+/* Home Section */
+#home{
+    display: flex;
+    flex-direction: column;
+    background-image:linear-gradient(black),(red);
+    height: 840px;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    font-size: 20px;
+}
+#home::before{
+    content: "";
+    position: fixed;
+    top: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+    z-index: -1;
+    opacity: .8;
+}
+.main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    top: 30%;
+    right: 5%;
+    
+}
+.headings{
+    font-family: century;
+    font-size: 3rem;
+    text-align: center;
+    margin: 50px 0px;
+}
+
+/*About Section*/
+header {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+section {
+    max-width: 800px;
+    margin: 20px auto;
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+h1,
+        h2 {
+            color: #333;
+        }
+
+        h2 {
+            border-bottom: 2px solid #ccc;
+            padding-bottom: 5px;
+            margin-top: 20px;
+        }
+
+        p {
+            margin-bottom: 10px;
+        }
+
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        li {
+            margin-bottom: 5px;
+        }
+
+        .education {
+            margin-top: 20px;
+        }
+
+    </style>
+</head>
+<body>
+ 
+    <nav class="navbar">
+        <ul>
+           <li><a href="Home.html">Home</a></li>
+            <li><a href="Professional Page.html">Professional Page</a></li>
+            <li><a href="Personality.html">Personality</a></li>
+            <li><a href="Personal Development.html">Personal Development</a></li>
+            <li><a href="Storyboard Page.html">Storyboard</a></li>
+            <li><a href="Reference Page.html">Reference Page</a></li>
+        </ul>
+    </nav>
+
+   
+        <div class="main">
+    
+
+    <section id="about">
+        <header>
+            <p>Web Developer</p>
+        </header>
+    
+        <section>
+            <h2 style="text-align: center;">Contact Information</h2>
+        
+            <p>Phone number: (876) 467-0749</p>
+            <p>LinkedIn: <a href="https://linkedin.com/in/yourname" target="_blank">linkedin.com/in/yourname</a></p>
+            <p>Email: <a href="mailto:dominicsundar14@gmail.com" type="blank">dominicsundar14@gmail.com</a></p>
+        </section>
+    
+        <section>
+            <h2 style="text-align: center;">Summary</h2>
+            <p>A dedicated and detail-oriented web developer with a passion for creating efficient and user-friendly websites. Proficient in HTML, CSS, and JavaScript, with a focus on responsive design and cross-browser compatibility.</p>
+        </section>
+
+        <section>
+                <h2 style="text-align: center;"> Mission Statement </h2>
+                <p>To craft impactful and seamless web experiences through a fusion of creativity and technical prowess. Committed to understanding the unique requirements of clients, my mission is to translate their visions into dynamic and user-friendly websites that elevate brand presence and foster digital success. I strive to be a trusted collaborator, delivering expert web development solutions that make a lasting impact.</p>
+        </section>
+
+        <section>
+                <h2 style="text-align: center;">Vision Statement</h2>
+                <p>Aspire to be a trailblazing web developer, defining new standards in innovation, user experience, and client satisfaction. Envision a future where my work not only meets but exceeds the evolving demands of the digital era. I aim to cultivate an environment of continual learning and innovation, pushing boundaries to create cutting-edge web solutions that leave a lasting impression. My vision is to be at the forefront of web development, shaping the future of online experiences.</p>
+        </section>
+
+    
+        <section>
+            <h2 style="text-align: center;">Skills</h2>
+            <ul>
+                <li>HTML5, CSS3</li>
+                <li>JavaScript, jQuery</li>
+                <li>Responsive Web Design</li>
+                <li>Git Version Control</li>
+                <li>Web Accessibility</li>
+                <li>Problem Solving</li>
+            </ul>
+        </section>
+    
+        <section class="education">
+            <h2 style="text-align: center;">Education</h2>
+            <p><strong>Bachelor of Science in Computing</strong></p>
+            <p>University of Technology,Jamaica, 2026</p>
+        </section>
+    
+        <section>
+            <h2 style="text-align: center;">Experience</h2>
+            <p><strong>Web Developer Intern</strong></p>
+            <p>Hyperlink Info System | Summer 2022</p>
+            <ul>
+                <li>Assisted in the development of responsive web applications.</li>
+                <li>Collaborated with the team to troubleshoot and debug code issues.</li>
+            </ul>
+                <br>
+            <p><strong>Freelance Web Developer</strong></p>
+            <p>Self-Employed | 2022 - 2023</p>
+            <ul>
+                <li>Designed and developed websites for small businesses and individuals.</li>
+                <li>Ensured websites are optimized for performance and search engines.</li>
+            </ul>
+        </section>
+
+        <section>
+            <h2 style="text-align: center;">Web Developer Requirements</h2>
+            <ul>
+                <li>Bachelors/Masters degree in Computer Science, Mathematics, or related field.</li>
+                <li>3-5+ years of experience as a web developer</li>
+                <li> Proficiency in designing and developing websites and applications</li>
+                <li>Solid knowledge of JavaScript, HTML, and CSS</li>
+                <li>Knowledge of working with databases including MySQL, SQL, NoSQL, etc.</li>
+                <li>Good understanding of technical and programming terminologies</li>
+                <li>Experience in implementing web development workflows and operations using a variety of tools, including GitHub</li>
+            </ul>
+                
+    </section>
+   </div> 
+</body>
+</html>
